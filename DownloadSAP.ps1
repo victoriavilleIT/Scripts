@@ -6,8 +6,6 @@ Invoke-WebRequest 'https://faronicsdeploystorage.s3.ca-central-1.amazonaws.com/S
 ping -n 30 127.0.0.1
 Expand-Archive -LiteralPath C:\Temp\SAP750.zip -DestinationPath C:\Temp\SAP750
 ping -n 30 127.0.0.1
-Expand-Archive -LiteralPath C:\Temp\SAP750Patch.zip -DestinationPath C:\Temp\SAP750Patch
-ping -n 30 127.0.0.1
 Expand-Archive -LiteralPath C:\Temp\SAP750Patch12.zip -DestinationPath C:\Temp\SAP750Patch12
 ping -n 30 127.0.0.1
 Expand-Archive -LiteralPath C:\Temp\SAP750Patchtext.zip -DestinationPath C:\Temp\SAP750Patchtext
