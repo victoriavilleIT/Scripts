@@ -1,4 +1,3 @@
-mkdir c:\temp
 Invoke-WebRequest 'https://faronicsdeploystorage.s3.ca-central-1.amazonaws.com/SAP/SAP+750.zip' -Outfile 'C:\Temp\SAP750.zip'
 ping -n 30 127.0.0.1
 Invoke-WebRequest 'https://faronicsdeploystorage.s3.ca-central-1.amazonaws.com/SAP/SAP+750+-+Patch+12.zip' -Outfile 'C:\Temp\SAP750Patch12.zip'
