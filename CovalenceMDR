@@ -1,0 +1,4 @@
+mkdir c:\temp
+powershell.exe -command "Invoke-WebRequest https://faronicsdeploystorage.s3.ca-central-1.amazonaws.com/CovalenceMDR/covalence-endpoint-x64-2.1.1.msi -Outfile C:\Temp\covalence-endpoint-x64-2.1.1.msi"
+ping -n 20 127.0.0.1 >NUL
+msiexec.exe /i C:\Temp\covalence-endpoint-x64-2.1.1.msi /qn COVALENCE_LICENSE=AQAQAAAAN9hOeI/pSMSaw5IQtyC14UAAAACcgg9KPAv4hsvTOzwmdnDVlnevrbSS/BYjELQHPQZWjzVVdlGfsfIYd/ECerh73kWCVyHBeEDMupfqp2y5S18MFgAAAAEAEAAAAAAAAAAAAAAAAAAAAAAAAAA=
