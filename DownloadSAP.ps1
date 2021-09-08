@@ -11,4 +11,4 @@ ping -n 30 127.0.0.1
 Expand-Archive -LiteralPath C:\Temp\SAP750Patchtext.zip -DestinationPath C:\Temp\SAP750Patchtext
 ping -n 30 127.0.0.1
 cd c:\temp
-Start-Process "cmd.exe " "SAPInstall2.bat"
+c:\temp\SAPInstall2.bat
