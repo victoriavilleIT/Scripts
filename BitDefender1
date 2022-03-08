@@ -1,0 +1,1 @@
+BEST_uninstallTool.exe /bdparams /bruteForce /quiet
