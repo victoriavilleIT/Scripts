@@ -1,1 +1,1 @@
-MsiExec.exe /x {2BE05CDF3B037C3489A46B13EF0D5907} REBOOT=ReallySuppress /qn
+wmic product where "name like 'Forti%%'" call uninstall /nointeractive
